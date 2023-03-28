@@ -1,0 +1,269 @@
+@import url(./reset.css);
+
+* {
+    font-family: Raleway, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.banner{
+    background-image: linear-gradient(rgba(12, 30, 47, 0.733), rgba(45, 65, 81, 0.6), rgba(12, 30, 47, 0.6)), url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    padding-top: 60px;
+    border-bottom: 1px solid white;
+}
+
+.banner .logo{
+   background-color: rgba(0, 0, 0, 0.2); 
+   height: 268px;
+   width: 268px;
+   left: 121px;
+    top: 0px;
+   margin: auto;
+   border-radius: 50%;
+   padding: 16px;
+   margin-bottom: 16px;
+}
+
+.banner .logo img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    object-fit: contain;
+}
+
+.banner .banner-content{
+    margin: auto;
+    text-align: center;
+    width: 600px;
+    color: white;
+}
+
+.banner h1{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#f8b700, rgb(255, 255, 255));
+    -webkit-background-clip: text;
+}
+
+.banner p{
+    font-size: 1.25rem;
+    margin: 16px 0 24px;
+}
+
+p{
+    color: white;
+}
+
+.banner .banner-content button{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: transparent;
+    border-image: linear-gradient(rgb(45, 65, 81), rgb(154, 173, 192));
+    border-image-slice: 10;
+}
+
+.banner .banner-content button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#intro-content{
+    background-image: url(../images/bg_masthead.webp);
+    background-size:cover;
+    height: 500px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+#intro-content h2{
+    margin-left: 500px;
+    padding-top: 110px;
+    width: 300px;
+    font-size: 1.5rem;
+}
+
+#intro-content p{
+    width: 400px;
+    margin-left: 450px;
+}
+
+section{
+    margin: 100px auto;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+#intro-content .flex-box-list{
+    margin: 100px 0 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: absolute;
+    text-align: center;
+    -webkit-box-pack: center;
+} 
+
+#intro-content .flex-box-list .flex-box-item {
+   clear: none;
+   float: left;
+   width: 25%;
+}
+
+#intro-content .flex-box-list .flex-box-item img{
+    color: white;
+    width: 285px;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px #f8b700;
+    margin-bottom: 5px;
+} 
+
+#intro-content .flex-box-list span{
+    margin-top: 5px;
+    color: #f8b700;
+    font-weight: bold;
+} 
+
+#intro-content .flex-box-list p{
+    margin-top: 5px;
+    margin-left: -30px;
+    padding: 5px;
+} 
+
+#teste-gratis{
+    height: 560px;
+    background-size: cover;
+    background-image: url(../images/wow1.jpg);
+    background-attachment: fixed;
+    border: 1px 0px solid #33A8DB80;
+    padding: 200px;
+}
+
+#teste-gratis h1{
+    margin-left: -80px;
+    font-size: 2.5rem;
+    font-weight: 900;
+    max-width: 250px;
+    text-align: center;
+    text-shadow: 3px 2px #f8b700;
+    margin-bottom: 10px;
+}
+
+#teste-gratis p{
+    margin-left: -150px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    max-width: 400px;
+    text-align: center;
+}
+
+
+#horde-alliance {
+    width: 800px;
+    text-align: center;
+}
+
+#horde-alliance img{
+    margin: 32px 0;
+}
+
+#horde-alliance h2{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(45, 65, 81));
+    -webkit-background-clip: text;
+    text-align: center;
+}
+
+#horde-alliance p{
+    color: white;
+    text-align: center;
+}
+
+#horde-alliance #flex-horde-alliance{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    text-align: center;
+    -webkit-box-pack: center;
+    margin-left: -90px;
+}
+
+#horde-alliance  #flex-horde-alliance #horde-or-alliance{
+    clear: none;
+    float: left;
+    width: 25%;
+}
+
+#horde-alliance  #flex-horde-alliance img{
+    color: white;
+    width: 285px;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px #f8b700;
+}
+
+#horde-alliance  #flex-horde-alliance #horde-or-alliance h3{
+    clear: none;
+    float: left;
+    width: 25%;
+    color: #f8b700;
+    margin-top: -10px;
+    width: 280px;
+    font-weight: bold;
+}
+
+#horde-alliance  #flex-horde-alliance #horde-or-alliance p{
+    clear: none;
+    float: left;
+    width: 25%;
+    color: white;
+    margin-top: 10px;
+    width: 280px;
+}
+
+
+footer{
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #33A8DB80;
+}
+
+footer .dio-logo{
+    width: 300px;
+}
+
+footer a{
+    color: #f8b700;
+    font-weight: bold;
+    text-decoration: none;
+}
